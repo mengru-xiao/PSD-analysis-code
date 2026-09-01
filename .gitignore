@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# 数据、映射表和分析结果均不得提交到公开仓库。
+data/
+LEiDA_results/
+abagen_raw_data/
+results/
+output/
+outputs/
+private/
+private_data/
+*id_map*.csv
+*ID_map*.csv
+*mapping*.csv
+*demographic*.csv
+*metadata*.csv
+*ROISignals*
+*.mat
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.nii
+*.nii.gz
+*.pkl
+
+# 如确需公开无个体信息的示例表，应逐个使用 !filename 放行并人工复核。
